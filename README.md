@@ -145,10 +145,3 @@ Expected: PubMed abstracts cited with PMID sources.
 - Passwords hashed with bcrypt — never stored in plain text
 - No telemetry, no external data collection
 
-## Resume Framing
-
-**RAG Intelligence Platform** — *Python · Mistral (Ollama) · ChromaDB · BM25 · SentenceTransformers · Streamlit · Docker · Wikipedia · PubMed · ArXiv · SEC EDGAR · GovInfo*
-
-- Engineered hybrid retrieval pipeline combining BM25, vector semantic search and LLM page-index reasoning — achieving accurate extraction on exact financial and legal queries where standard RAG pipelines fail due to zero semantic overlap.
-- Designed multi-document contradiction detection engine with date-extraction recency scoring and domain-aware causation chain analysis — reducing manual regulatory review effort by surfacing conflicts and override clauses automatically across documents.
-- Built dual-chatbot RAG platform querying 5 live public APIs in parallel across medical, science, law, finance and general domains — delivering sub-5 second responses with RAGAS self-evaluation, inline charts and zero infrastructure cost.
